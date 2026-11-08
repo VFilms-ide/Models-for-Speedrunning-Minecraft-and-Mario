@@ -3,4 +3,15 @@ import scipy as sp
 from scipy.stats import binom
 import scipy.stats as si
 
-binom.pmf
+
+#In 1.16.2 
+
+def prob = binom.cdf(k, n, p)
+n = 64
+p = 10/469
+
+
+
+
+
+
