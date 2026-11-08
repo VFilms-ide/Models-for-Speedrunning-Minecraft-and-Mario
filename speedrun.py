@@ -9,7 +9,9 @@ import scipy.stats as si
 def prob = binom.cdf(k, n, p)
 n = 64
 p = 10/469
+probability = coefficient * (p ** k) * ((1 - p) ** (n - k))
 
+print(f"Probability Mass Function (PMF) : {def prob}")
 
 
 
