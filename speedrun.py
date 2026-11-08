@@ -4,4 +4,3 @@ import scipy as sp
 from scipy.stats import binom
 import scipy.stats as si
 
-binom.pmf
