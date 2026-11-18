@@ -13,6 +13,13 @@ probability = coefficient * (p ** k) * ((1 - p) ** (n - k))
 
 print(f"Probability Mass Function (PMF) : {def prob}")
 
+def rng(sheep=2*8, pearls=2*4, bones=2*4):
+    rng.current = (pearls*eng.current + bones) %m
+    return rng.current/m
+
+rng.current = 4
+
+[rng() for i in range(10)]
 
 
 
